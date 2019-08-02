@@ -1,0 +1,135 @@
+/* Start Navigation Styling*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.intro img{
+
+    border-radius: 50%;
+    border: #edf0f1;
+    width: 200px;
+    opacity: 0.9;
+    float: right;
+    margin-right: 500px;
+    height: 200px;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none; 
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px; 
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+    color: #0088a9 
+}
+
+button {
+    margin-left: 20px; 
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* End Navigation Styling*/
+
+.intro h1, h2, p {
+
+    text-align: left;
+    margin-left: 500px;
+
+}
+
+.intro {
+
+    background-color:  #6CB2D1;
+    justify-content: baseline;
+    padding-top: 50px; 
+    padding-bottom: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #edf0f1;
+}
+
+#about {
+      background-color: #6CB2D1;
+      height: 1050px;
+    }
+
+#code {
+    border-radius: 5px;
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size:30px;
+    background: #ccc;
+    height: 570px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size:13px;
+    color: #fafafa;
+    }
+
+#console {
+    padding-top: 100px; 
+    width:670px;
+    padding: 40px;
+    height: 620px;
+    margin:0 auto;
+    background: #383737;
+    
+    }
+
+#about p {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    color: #fafafa;
+    font-size: 11px;
+    text-transform: uppercase;
+    
+}
+
+#about a {
+    color: #3a92c8;
+    text-decoration: none;
+    font-family: 'Monaco', 'Courier New';
+    font-size: 13px; 
+    }
+
+#about a:hover {
+    text-decoration: underline;
+    }
+
